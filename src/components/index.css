@@ -1,0 +1,323 @@
+.user{
+    background-color: coral;
+    padding: 1rem;
+    border: 1px solid coral;
+    border-bottom-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+}
+.user_form{
+    display: block;
+    width: 100%;
+    padding: 2rem;
+}
+form{
+    width: auto;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+.form-heading{
+    font-family: sans-serif;
+    color: white;
+}
+.remember{
+    width: 40%;
+    text-align: left;
+    float: left;
+}
+#login{
+    width: 100%;
+}
+.go_to_register{
+    padding-top: 1rem;
+}
+
+.btn.btn-social-icon {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+
+.btn.btn-rounded {
+    border-radius: 50px
+}
+
+.btn-outline-github{
+    border: 1px solid black;
+    color: white;
+}
+.btn-outline-github:hover{
+    background: rgb(20, 15, 15);
+    color: white;
+}
+.btn-outline-facebook {
+    border: 1px solid #3b579d;
+    color: #3b579d
+}
+
+.btn-outline-facebook:hover {
+    background: #3b579d;
+    color: #ffffff
+}
+
+
+.btn-outline-instagram {
+    border: 1px solid #dc4a38;
+    color: #dc4a38
+}
+
+.btn-outline-instagram:hover {
+    background: #e52d27;
+    color: #ffffff
+}
+
+.btn-facebook {
+    background: #3b579d;
+    color: #ffffff
+}
+
+.btn-instagram {
+    background: #dc4a38;
+    color: #ffffff
+}
+
+.btn-google {
+    color: #ffffff;
+    background-color: red;
+}
+.btn-github{
+    color: white;
+    background-color: #433f3f;
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus {
+    background: #2d4278;
+    color: #ffffff
+}
+
+.btn-instagram:hover,
+.btn-instagram:focus {
+    background: #bf3322;
+    color: #ffffff
+}
+.btn-github:hover,
+.btn-github:focus{
+    background-color: rgb(20, 15, 15);
+    color: white;
+}
+.active-tab{
+    background-color: coral !important;
+}
+.hide{
+    display: none;
+}
+.go_log{
+    border: none !important;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.go_reg{
+    border: none !important;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.go_reg,.go_log{
+    box-shadow: inset -1px 0 0 coral !important;
+}
+.icon{
+    
+}
+
+.icon img:hover{
+    transform: scale(1.05);
+}
+.form-header{
+    padding-bottom: 1rem;
+}
+.form-header img{
+    border-radius:50%;
+    border:6px solid white;
+    position: absolute;
+    z-index: 1;
+    left: 45%;
+}
+.contact-form{
+    border-radius: 0.5rem;
+}
+.position-relative{
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background: linear-gradient(to bottom right, #ff99cc 84% , #fff 10%);
+    border-radius: 0% 0% 90% 0;
+    box-shadow: 0 1px 1px 0 rgb(100 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+  }
+  .position-relative h1,p,a{
+    color: black;
+  }
+  .position-relative a{
+    background-color: red;
+    border-color: red;
+    color: white;
+  }
+  .position-relative a:hover{
+    color: red;
+    background-color: white;
+    border-color: white;
+  }
+
+  .position-relatives{
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background: linear-gradient(to bottom right, #ff99cc 84% , #fff 10%);
+    border-radius: 100% 0% 100% 0%;
+    box-shadow: 0 1px 1px 0 rgb(100 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+  }
+  .position-relatives h1,p,a{
+    color: black;
+  }
+  .position-relatives a{
+    background-color: red;
+    border-color: red;
+    color: white;
+  }
+  .position-relatives a:hover{
+    color: red;
+    background-color: white;
+    border-color: white;
+  }
+  
+  /*
+   * Custom translucent site header
+   */
+ 
+  .site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    color: #999;
+    transition: ease-in-out color .15s;
+  }
+  .site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /*
+   * Dummy devices (replace them with your own or something else entirely!)
+   */
+  
+  .product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+  }
+  
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+  }
+  
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+  }
+  
+  
+  /*
+   * Extra utilities
+   */
+  
+  .border-top { border-top: 1px solid #e5e5e5; }
+  .border-bottom { border-bottom: 1px solid #e5e5e5; }
+  
+  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+  .d-md-flex{
+    box-shadow: 1px 1px 1px 1px lightgray;
+  }
+  .flex-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      -ms-flex: 1;
+      -webkit-box-flex: 1;
+      flex: 1;
+    }
+    
+  }
+  @media (max-width:768px){
+    .position-relatives{
+      border-radius: 58% 0% 75% 0%;
+    }
+  }
+  
+  .overflow-hidden { overflow: hidden; }
+  .user-details{
+    /* box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.19), 0px 2px 6px 0px rgba(0,0,0,0.23); */
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 10px;
+  }
+  body{
+    background-color: #eee;
+  }
+  .main {
+    margin: 0;
+    padding: 2vh 0;
+    width: 100%
+}
+
+.col-2,
+.col {
+    padding: 0 1vh
+}
+.product-list img{
+  width: 3.5rem
+}
+
+.sidebar {
+  
+  top: 51px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  display: block;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  background-color: #f5f5f5;
+  border-right: 1px solid #eee;
+
+  }
+  @media (min-width: 768px) {
+    .main {
+    padding-right: 40px;
+    padding-left: 220px; /* 180 + 40 */
+    }
+    }
